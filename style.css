@@ -1,0 +1,38 @@
+.alinhando{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    z-index: 10000;
+}
+
+*{
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    overflow: hidden;
+}
+:root{
+    --background-cor: #2E1012
+}
+.background{
+    background-color: #2E1012;
+}
+.amareloCor{
+    background-color: #F3CC4D;
+}
+.image{
+
+    background-image: url(./img/background.svg);
+    background-size: cover;
+}
+.textImage{
+     background-image: url(./img/background.svg);
+     background-repeat: no-repeat;
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+     top: 200px;
+     left: 360px;
+     z-index: 1;
+}
